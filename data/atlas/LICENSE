@@ -1,0 +1,58 @@
+SRI24 Atlas — License and Attribution
+=====================================
+
+The data files in this directory (`atlas_seg_256.nii.gz`, `atlas_t1_256.nii.gz`)
+are derived from the SRI24 atlas of normal adult human brain structure. They are
+NOT covered by the MIT license that applies to the software in this repository
+(see the top-level `LICENSE`).
+
+Original work
+-------------
+  SRI24: Normal Adult Brain Anatomy
+  Torsten Rohlfing, Natalie M. Zahr, Edith V. Sullivan, Adolf Pfefferbaum
+  SRI International, Neuroscience Program
+  https://www.nitrc.org/projects/sri24/
+
+License
+-------
+The SRI24 atlas is distributed by its authors under a Creative Commons
+Attribution-ShareAlike license (CC-BY-SA). As stated on the NITRC project page:
+
+  "This license lets others remix, tweak, and build upon your work even for
+   commercial reasons, as long as they credit you and license their new
+   creations under the identical terms."
+
+  https://creativecommons.org/licenses/by-sa/
+
+The upstream distribution states "CC-BY-SA" without naming a version number; the
+terms above are reproduced as published by the atlas authors.
+
+Because the files in this directory are derivative works of the SRI24 atlas,
+they are redistributed here under those same CC-BY-SA terms. Anyone who further
+modifies or redistributes them must likewise credit the original authors and
+license the result under identical terms.
+
+Required citation
+-----------------
+As per the CC-BY-SA license, please cite the following paper in any publication
+that uses the SRI24 atlas:
+
+  T. Rohlfing, N. M. Zahr, E. V. Sullivan, and A. Pfefferbaum,
+  "The SRI24 multichannel atlas of normal adult human brain structure,"
+  Human Brain Mapping, vol. 31, no. 5, pp. 798-819, 2010.
+  doi:10.1002/hbm.20906
+
+BibTeX:
+
+  @article{rohlfing2010sri24,
+    author  = {Rohlfing, Torsten and Zahr, Natalie M. and Sullivan, Edith V.
+               and Pfefferbaum, Adolf},
+    title   = {The {SRI24} multichannel atlas of normal adult human brain
+               structure},
+    journal = {Human Brain Mapping},
+    volume  = {31},
+    number  = {5},
+    pages   = {798--819},
+    year    = {2010},
+    doi     = {10.1002/hbm.20906}
+  }

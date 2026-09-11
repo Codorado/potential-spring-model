@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "potential-spring-model"
+version = "0.1.0"
+description = "A differentiable brain-tumor mass-effect solver (Potential Spring Model)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Anonymized for review" }]
+keywords = ["mass-effect", "brain-tumor", "differentiable-solver", "jax"]
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "nibabel>=5.0",
+    "jax>=0.4.20",
+    "jaxlib>=0.4.20",
+    "optax>=0.1.7",
+]
+
+[tool.setuptools]
+packages = ["psm", "psm.evaluation"]

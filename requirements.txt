@@ -1,0 +1,10 @@
+# Core runtime dependencies for the Potential Spring Model.
+# JAX provides the autodiff + GPU execution. For a GPU build, install the
+# matching CUDA wheel instead (see https://github.com/jax-ml/jax#installation),
+# e.g.  pip install -U "jax[cuda12]"
+numpy>=1.24
+scipy>=1.10
+nibabel>=5.0
+jax>=0.4.20
+jaxlib>=0.4.20
+optax>=0.1.7

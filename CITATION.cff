@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the accompanying paper."
+title: "A Differentiable Brain Tumor Mass Effect Solver (Potential Spring Model)"
+# Authors are anonymized during double-blind review. Fill in before public release.
+authors:
+  - name: "Anonymized for review"
+version: 0.1.0
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "A Differentiable Brain Tumor Mass Effect Solver"
+  year: 2026
+  authors:
+    - name: "Anonymized for review"
